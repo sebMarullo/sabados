@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <style>
+        nav ul li {
+            display:inline-block;
+            position:relative;
+        }
+        nav > ul li ul {
+            position:absolute;
+            display:none;
+            left:0;
+            top:100%;
+            padding-left:0;
+        }
+        nav > ul li:hover ul {
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="http://">Home</a>
+            </li>
+            <li>
+                <a href="http://">Historia</a>
+                <ul>
+                    <li>
+                        <a href="http://">Filosofia</a>
+                    </li>
+                    <li>
+                        <a href="http://">Integrantes</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="http://">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
